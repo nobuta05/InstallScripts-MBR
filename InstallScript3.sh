@@ -3,7 +3,7 @@ echo -e "\n\n[archlinuxfr]\nSigLevel = Never\nServer = http://repo.archlinux.fr/
 echo -e "NOCONFIRM=1\nBUILD_NOCONFIRM=1\nEDITFILES=0\nSUDONOVERIF=1" > $HOME/.yaourtrc
 pacman -Syy
 
-yes "" | pacman -S yaourt tmux emacs-nox zsh git xorg-xmodmap openssh
+yes "" | pacman -S yaourt tmux emacs-nox zsh git xorg-xmodmap openssh python python-pip
 useradd -m -g wheel nobuta05
 echo "nobuta05:$1" | chpasswd
 
@@ -13,7 +13,7 @@ yes "" | pacman -S xorg-server xorg-server-utils xorg-xinit xorg-xclock xterm
 ## Example
 yes "" | pacman -S xf86-video-intel
 
-yes "" | pacman -S networkmanager network-manager-applet openvpn
+yes "" | pacman -S networkmanager network-manager-applet openvpn syncthing
 
 yes "" | pacman -S i3-wm i3status
 # .xinitrc exec i3
