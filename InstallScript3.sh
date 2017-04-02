@@ -20,7 +20,7 @@ yes "" | pacman -S i3-wm i3status
 yes "" | pacman -S unzip xsel screenfetch xclip
 yes "" | pacman -S fcitx-im fcitx-mozc fcitx-configtool
 # yes "" | pacman -S texlive-bibtexextra texlive-core texlive-fontsextra texlive-formatsextra texlive-genericextra texlive-htmlxml texlive-humanities texlive-latexextra texlive-pictures texlive-plainextra texlive-pstricks texlive-publishers texlive-science texlive-langjapanese
-yes "" | pacman -S feh volumeicon evince alsa-utils xf86-input-synaptics fig2dev pstoedit graphviz npm docker
+yes "" | pacman -S feh volumeicon evince alsa-utils xf86-input-synaptics fig2dev pstoedit graphviz npm docker tcl tk
 
 # yes "" | pacman -S octave gnuplot slack-desktop
 

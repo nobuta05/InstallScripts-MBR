@@ -4,7 +4,7 @@ cd $HOME
 # git clone https://github.com/nobuta05/dotfiles
 # source $HOME/dotfiles/symlink.sh
 
-files=("ttf-ricty" "google-chrome" "dmenu2" "atom-editor-bin" "rxvt-unicode-256xresources" "i3lock-fancy-git" "epstool" "texlive-localmanager-git")
+files=("ttf-ricty" "google-chrome" "dmenu2" "atom-editor-bin" "rxvt-unicode-256xresources" "i3lock-fancy-git" "epstool" "texlive-localmanager-git" "blockdiag")
 
 for filename in ${files[@]}
 do
